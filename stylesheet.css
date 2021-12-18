@@ -1,0 +1,121 @@
+
+		html, body { margin:0; padding:0; height: 100%;}
+
+        body{
+            overflow: hidden;
+        }
+		svg {position:absolute;
+            top:-20%; left:0; width:100% }
+
+		#store_Rectangle{
+			opacity: 0;
+		}
+
+		#store_Rectangle:hover{
+			opacity:  1;
+		}
+
+		#contact_Rectangle{
+			opacity: 0;
+		}
+
+		#contact_Rectangle:hover{
+			opacity:  1;
+		}
+
+		#about_Rectangle{
+			opacity: 0;
+		}
+
+		#about_Rectangle:hover{
+			opacity:  1;
+		}
+
+		#team_Rectangle{
+			opacity: 0;
+		}
+
+		#team_Rectangle:hover{
+			opacity:  1;
+		}
+
+		#bike_Stat{
+			animation: rotate_Logo 5s infinite linear;
+			transform-origin: center;
+			transform-box: fill-box;
+		}
+
+		#dumb_Bell_Stat{
+			animation: rotate_Logo 5s infinite linear;
+			transform-origin: center;
+			transform-box: fill-box;
+		}
+
+		#ecg_Stat{
+			animation: rotate_Logo 5s infinite linear;
+			transform-origin: center;
+			transform-box: fill-box;
+		}
+
+		#front_Wheel_B1, #front_Wheel_B2, #back_Wheel_B1, #back_Wheel_B2{
+			animation: rotate_Logo 1s infinite linear;
+			transform-origin: center;
+			transform-box: fill-box;
+		}
+
+		@keyframes rotate_Logo{
+		  0%{
+		    transform:rotate(360deg);
+		  }
+		  100%{
+		    transform:rotate(0deg);
+		  }
+		}
+
+		#hat_B1{
+			animation: hatmove1 1s ease alternate-reverse infinite;
+			transform-origin: bottom center;
+			transform-box: fill-box;
+		}
+
+		#hat_B2{
+			animation: hatmove2 1s ease alternate-reverse infinite;
+			transform-origin: bottom center;
+			transform-box: fill-box;
+		}
+
+		@keyframes hatmove1{
+			from{
+				transform:  translateY(0.1rem) rotateZ(20deg);
+			}
+			to{
+				transform: translateY(0.2rem) rotateZ(0deg);
+			}
+		}
+
+		@keyframes hatmove2{
+			from{
+				transform:  translateY(0.1rem) rotateZ(-20deg);
+			}
+			to{
+				transform: translateY(-0.1rem) rotateZ(0deg);
+			}
+		}
+
+		#biker_1{
+			animation: manmove 1s ease alternate-reverse infinite;
+			transform-origin: bottom center;
+			transform-box: fill-box;
+		}
+
+		@keyframes manmove{
+			from{
+
+				transform: rotateX(0deg);
+			}
+			to{
+				transform:  rotateX(20deg);
+			}
+		}
+
+	
