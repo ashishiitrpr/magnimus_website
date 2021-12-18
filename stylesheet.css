@@ -1,9 +1,6 @@
 
-		html, body { margin:0; padding:0;}
+		html, body { margin:0; padding:0; height:100%}
 
-        body{
-            overflow: hidden;
-        }
 		svg {position:absolute;
             top:0; left:0; width:100% }
 
